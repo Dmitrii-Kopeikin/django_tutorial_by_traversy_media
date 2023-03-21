@@ -1,0 +1,22 @@
+{% extends 'base/main.html' %}
+
+{% block title %}
+StudyBuddy - Find study partners around the world!
+{% endblock title %}
+
+{% block content %}
+
+    <h1>{{ user.username }}</h1>
+
+    <div class="profile-container">
+        <div>
+            {% include 'base/topics_component.html' %}
+        </div>
+        <div>
+            {% include 'base/feed_component.html' %}
+        </div>
+        <div>
+            {% include 'base/activity_component.html' %}
+        </div>
+    </div>
+{% endblock content %}
