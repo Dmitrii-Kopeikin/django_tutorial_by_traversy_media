@@ -1,2 +1,9 @@
 # created by virtualenv automatically
 /Lib
+/Lib/*
+/Scripts
+/Scripts/*
+/.idea
+/.idea/
+/pyvenv.cfg
+/.gitignore
